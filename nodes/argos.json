@@ -83,7 +83,7 @@
         "model": "2",
         "model_name": "AMD Phenom(tm) 9950 Quad-Core Processor",
         "stepping": "3",
-        "mhz": "1300.000",
+        "mhz": "2600.000",
         "cache_size": "512 KB",
         "physical_id": "0",
         "core_id": "1",
@@ -294,13 +294,13 @@
     "filesystem": {
       "/dev/mapper/centos-root": {
         "kb_size": "52403200",
-        "kb_used": "6282380",
-        "kb_available": "46120820",
-        "percent_used": "12%",
+        "kb_used": "6509244",
+        "kb_available": "45893956",
+        "percent_used": "13%",
         "mount": "/",
         "total_inodes": "52428800",
-        "inodes_used": "238826",
-        "inodes_available": "52189974",
+        "inodes_used": "238882",
+        "inodes_available": "52189918",
         "inodes_percent_used": "1%",
         "fs_type": "xfs",
         "mount_options": [
@@ -379,13 +379,13 @@
       },
       "/dev/mapper/centos-home": {
         "kb_size": "10190100",
-        "kb_used": "622440",
-        "kb_available": "9551276",
+        "kb_used": "622872",
+        "kb_available": "9550844",
         "percent_used": "7%",
         "mount": "/home",
         "total_inodes": "655360",
-        "inodes_used": "13791",
-        "inodes_available": "641569",
+        "inodes_used": "13883",
+        "inodes_available": "641477",
         "inodes_percent_used": "3%",
         "fs_type": "ext4",
         "mount_options": [
@@ -398,8 +398,8 @@
       },
       "/dev/mapper/sw_vg-minecraft_lv": {
         "kb_size": "10190100",
-        "kb_used": "1396256",
-        "kb_available": "8777460",
+        "kb_used": "1396436",
+        "kb_available": "8777280",
         "percent_used": "14%",
         "mount": "/minecraft",
         "total_inodes": "655360",
@@ -1142,23 +1142,23 @@
         "surplus": "0"
       },
       "total": "7495124kB",
-      "free": "707328kB",
-      "buffers": "142104kB",
-      "cached": "2251480kB",
-      "active": "4130944kB",
-      "inactive": "1688960kB",
-      "dirty": "2576kB",
+      "free": "410012kB",
+      "buffers": "144184kB",
+      "cached": "2486184kB",
+      "active": "4364908kB",
+      "inactive": "1694532kB",
+      "dirty": "1460kB",
       "writeback": "0kB",
-      "anon_pages": "3447260kB",
-      "mapped": "83320kB",
-      "slab": "765036kB",
-      "slab_reclaimable": "681532kB",
-      "slab_unreclaim": "83504kB",
-      "page_tables": "17968kB",
+      "anon_pages": "3449896kB",
+      "mapped": "85312kB",
+      "slab": "819888kB",
+      "slab_reclaimable": "735616kB",
+      "slab_unreclaim": "84272kB",
+      "page_tables": "20396kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "11480804kB",
-      "committed_as": "4570036kB",
+      "committed_as": "4584036kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "310076kB",
       "vmalloc_chunk": "34359424140kB",
@@ -1381,15 +1381,15 @@
         "interfaces": {
           "lo": {
             "rx": {
-              "bytes": "422465903",
-              "packets": "1952655",
+              "bytes": "439581470",
+              "packets": "2029358",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
             },
             "tx": {
-              "bytes": "422465903",
-              "packets": "1952655",
+              "bytes": "439581470",
+              "packets": "2029358",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
@@ -1399,16 +1399,16 @@
           "enp1s7": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "13013696357",
-              "packets": "13902634",
+              "bytes": "13452556518",
+              "packets": "14400799",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "12880124720",
-              "packets": "14501594",
+              "bytes": "13339551839",
+              "packets": "15026521",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -1445,10 +1445,10 @@
     "platform": "centos",
     "platform_version": "7.2.1511",
     "platform_family": "rhel",
-    "uptime_seconds": 1161734,
-    "uptime": "13 days 10 hours 42 minutes 14 seconds",
-    "idletime_seconds": 4494912,
-    "idletime": "52 days 00 hours 35 minutes 12 seconds",
+    "uptime_seconds": 1207610,
+    "uptime": "13 days 23 hours 26 minutes 50 seconds",
+    "idletime_seconds": 4672378,
+    "idletime": "54 days 01 hours 52 minutes 58 seconds",
     "virtualization": {
       "systems": {
         "kvm": "host"
@@ -1503,7 +1503,7 @@
         "host_vendor": "redhat",
         "bin_dir": "/usr/bin",
         "ruby_bin": "/usr/bin/ruby",
-        "gems_dir": "/home/ksquires/.gem/ruby",
+        "gems_dir": "/usr/local/share/gems",
         "gem_bin": "/usr/bin/gem"
       }
     },
@@ -1518,7 +1518,308 @@
       }
     },
     "dmi": {
-      "dmidecode_version": "2.12"
+      "dmidecode_version": "2.12",
+      "smbios_version": "2.5",
+      "structures": {
+        "count": "73",
+        "size": "2488"
+      },
+      "bios": {
+        "all_records": [
+          {
+            "record_id": "0x0000",
+            "size": "0",
+            "application_identifier": "BIOS Information",
+            "Vendor": "American Megatrends Inc.",
+            "Version": "1305   ",
+            "Release Date": "06/29/2009",
+            "Address": "0xF0000",
+            "Runtime Size": "64 kB",
+            "ROM Size": "1024 kB",
+            "Characteristics": {
+              "ISA is supported": null,
+              "PCI is supported": null,
+              "PNP is supported": null,
+              "APM is supported": null,
+              "BIOS is upgradeable": null,
+              "BIOS shadowing is allowed": null,
+              "ESCD support is available": null,
+              "Boot from CD is supported": null,
+              "Selectable boot is supported": null,
+              "BIOS ROM is socketed": null,
+              "EDD is supported": null,
+              "5.25\"/1.2 MB floppy services are supported (int 13h)": null,
+              "3.5\"/720 kB floppy services are supported (int 13h)": null,
+              "3.5\"/2.88 MB floppy services are supported (int 13h)": null,
+              "Print screen service is supported (int 5h)": null,
+              "8042 keyboard services are supported (int 9h)": null,
+              "Serial services are supported (int 14h)": null,
+              "Printer services are supported (int 17h)": null,
+              "CGA/mono video services are supported (int 10h)": null,
+              "ACPI is supported": null,
+              "USB legacy is supported": null,
+              "LS-120 boot is supported": null,
+              "ATAPI Zip drive boot is supported": null,
+              "BIOS boot specification is supported": null,
+              "Targeted content distribution is supported": null
+            },
+            "BIOS Revision": "8.14"
+          }
+        ],
+        "vendor": "American Megatrends Inc.",
+        "version": "1305",
+        "release_date": "06/29/2009",
+        "address": "0xF0000",
+        "runtime_size": "64 kB",
+        "rom_size": "1024 kB",
+        "bios_revision": "8.14"
+      },
+      "system": {
+        "all_records": [
+          {
+            "record_id": "0x0001",
+            "size": "1",
+            "application_identifier": "System Information",
+            "Manufacturer": "System manufacturer",
+            "Product Name": "System Product Name",
+            "Version": "System Version",
+            "Serial Number": "System Serial Number",
+            "UUID": "A0EEBE94-8DFE-D511-AA5A-002215B6AC80",
+            "Wake-up Type": "Power Switch",
+            "SKU Number": "To Be Filled By O.E.M.",
+            "Family": "To Be Filled By O.E.M."
+          }
+        ],
+        "manufacturer": "System manufacturer",
+        "product_name": "System Product Name",
+        "version": "System Version",
+        "serial_number": "System Serial Number",
+        "uuid": "A0EEBE94-8DFE-D511-AA5A-002215B6AC80",
+        "wake_up_type": "Power Switch",
+        "sku_number": "To Be Filled By O.E.M.",
+        "family": "To Be Filled By O.E.M."
+      },
+      "base_board": {
+        "all_records": [
+          {
+            "record_id": "0x0002",
+            "size": "2",
+            "application_identifier": "Base Board Information",
+            "Manufacturer": "ASUSTeK Computer INC.",
+            "Product Name": "M3N78-VM",
+            "Version": "Rev X.0x",
+            "Serial Number": "MF7087G01714443",
+            "Asset Tag": "To Be Filled By O.E.M.",
+            "Features": {
+              "Board is a hosting board": null,
+              "Board is replaceable": null
+            },
+            "Location In Chassis": "To Be Filled By O.E.M.",
+            "Chassis Handle": "0x0003",
+            "Type": "Motherboard",
+            "Contained Object Handles": "0"
+          }
+        ],
+        "manufacturer": "ASUSTeK Computer INC.",
+        "product_name": "M3N78-VM",
+        "version": "Rev X.0x",
+        "serial_number": "MF7087G01714443",
+        "asset_tag": "To Be Filled By O.E.M.",
+        "location_in_chassis": "To Be Filled By O.E.M.",
+        "chassis_handle": "0x0003",
+        "type": "Motherboard",
+        "contained_object_handles": "0"
+      },
+      "chassis": {
+        "all_records": [
+          {
+            "record_id": "0x0003",
+            "size": "3",
+            "application_identifier": "Chassis Information",
+            "Manufacturer": "Chassis Manufacture",
+            "Type": "Desktop",
+            "Lock": "Not Present",
+            "Version": "Chassis Version",
+            "Serial Number": "Chassis Serial Number",
+            "Asset Tag": "Asset-1234567890",
+            "Boot-up State": "Safe",
+            "Power Supply State": "Safe",
+            "Thermal State": "Safe",
+            "Security Status": "None",
+            "OEM Information": "0x00000001",
+            "Height": "Unspecified",
+            "Number Of Power Cords": "1",
+            "Contained Elements": "0"
+          }
+        ],
+        "manufacturer": "Chassis Manufacture",
+        "type": "Desktop",
+        "lock": "Not Present",
+        "version": "Chassis Version",
+        "serial_number": "Chassis Serial Number",
+        "asset_tag": "Asset-1234567890",
+        "boot_up_state": "Safe",
+        "power_supply_state": "Safe",
+        "thermal_state": "Safe",
+        "security_status": "None",
+        "oem_information": "0x00000001",
+        "height": "Unspecified",
+        "number_of_power_cords": "1",
+        "contained_elements": "0"
+      },
+      "processor": {
+        "all_records": [
+          {
+            "record_id": "0x0004",
+            "size": "4",
+            "application_identifier": "Processor Information",
+            "Socket Designation": "AM2",
+            "Type": "Central Processor",
+            "Family": "Phenom X4",
+            "Manufacturer": "AMD              ",
+            "ID": "23 0F 10 00 FF FB 8B 17",
+            "Signature": "Family 16, Model 2, Stepping 3",
+            "Flags": {
+              "FPU (Floating-point unit on-chip)": null,
+              "VME (Virtual mode extension)": null,
+              "DE (Debugging extension)": null,
+              "PSE (Page size extension)": null,
+              "TSC (Time stamp counter)": null,
+              "MSR (Model specific registers)": null,
+              "PAE (Physical address extension)": null,
+              "MCE (Machine check exception)": null,
+              "CX8 (CMPXCHG8 instruction supported)": null,
+              "APIC (On-chip APIC hardware supported)": null,
+              "SEP (Fast system call)": null,
+              "MTRR (Memory type range registers)": null,
+              "PGE (Page global enable)": null,
+              "MCA (Machine check architecture)": null,
+              "CMOV (Conditional move instruction supported)": null,
+              "PAT (Page attribute table)": null,
+              "PSE-36 (36-bit page size extension)": null,
+              "CLFSH (CLFLUSH instruction supported)": null,
+              "MMX (MMX technology supported)": null,
+              "FXSR (FXSAVE and FXSTOR instructions supported)": null,
+              "SSE (Streaming SIMD extensions)": null,
+              "SSE2 (Streaming SIMD extensions 2)": null,
+              "HTT (Multi-threading)": null
+            },
+            "Version": "AMD Phenom(tm) 9950 Quad-Core Processor             ",
+            "Voltage": "1.5 V",
+            "External Clock": "200 MHz",
+            "Max Speed": "2600 MHz",
+            "Current Speed": "2600 MHz",
+            "Status": "Populated, Enabled",
+            "Upgrade": "Other",
+            "L1 Cache Handle": "0x0005",
+            "L2 Cache Handle": "0x0006",
+            "L3 Cache Handle": "0x0007",
+            "Serial Number": "To Be Filled By O.E.M.",
+            "Asset Tag": "To Be Filled By O.E.M.",
+            "Part Number": "To Be Filled By O.E.M.",
+            "Core Count": "4",
+            "Core Enabled": "4",
+            "Characteristics": {
+              "64-bit capable": null
+            }
+          }
+        ],
+        "socket_designation": "AM2",
+        "type": "Central Processor",
+        "family": "Phenom X4",
+        "manufacturer": "AMD",
+        "id": "23 0F 10 00 FF FB 8B 17",
+        "signature": "Family 16, Model 2, Stepping 3",
+        "version": "AMD Phenom(tm) 9950 Quad-Core Processor",
+        "voltage": "1.5 V",
+        "external_clock": "200 MHz",
+        "max_speed": "2600 MHz",
+        "current_speed": "2600 MHz",
+        "status": "Populated, Enabled",
+        "upgrade": "Other",
+        "l1_cache_handle": "0x0005",
+        "l2_cache_handle": "0x0006",
+        "l3_cache_handle": "0x0007",
+        "serial_number": "To Be Filled By O.E.M.",
+        "asset_tag": "To Be Filled By O.E.M.",
+        "part_number": "To Be Filled By O.E.M.",
+        "core_count": "4",
+        "core_enabled": "4"
+      },
+      "memory_module": {
+        "all_records": [
+          {
+            "record_id": "0x0009",
+            "size": "6",
+            "application_identifier": "Memory Module Information",
+            "Socket Designation": "DIMM0",
+            "Bank Connections": "0 1",
+            "Current Speed": "25 ns",
+            "Type": "DIMM",
+            "Installed Size": "2048 MB (Double-bank Connection)",
+            "Enabled Size": "2048 MB (Double-bank Connection)",
+            "Error Status": "OK"
+          },
+          {
+            "record_id": "0x000A",
+            "size": "6",
+            "application_identifier": "Memory Module Information",
+            "Socket Designation": "DIMM1",
+            "Bank Connections": "2 3",
+            "Current Speed": "25 ns",
+            "Type": "DIMM",
+            "Installed Size": "2048 MB (Double-bank Connection)",
+            "Enabled Size": "2048 MB (Double-bank Connection)",
+            "Error Status": "OK"
+          },
+          {
+            "record_id": "0x000B",
+            "size": "6",
+            "application_identifier": "Memory Module Information",
+            "Socket Designation": "DIMM2",
+            "Bank Connections": "4 5",
+            "Current Speed": "25 ns",
+            "Type": "DIMM",
+            "Installed Size": "2048 MB (Double-bank Connection)",
+            "Enabled Size": "2048 MB (Double-bank Connection)",
+            "Error Status": "OK"
+          },
+          {
+            "record_id": "0x000C",
+            "size": "6",
+            "application_identifier": "Memory Module Information",
+            "Socket Designation": "DIMM3",
+            "Bank Connections": "6 7",
+            "Current Speed": "25 ns",
+            "Type": "DIMM",
+            "Installed Size": "2048 MB (Double-bank Connection)",
+            "Enabled Size": "2048 MB (Double-bank Connection)",
+            "Error Status": "OK"
+          }
+        ],
+        "current_speed": "25 ns",
+        "type": "DIMM",
+        "installed_size": "2048 MB (Double-bank Connection)",
+        "enabled_size": "2048 MB (Double-bank Connection)",
+        "error_status": "OK"
+      },
+      "oem_strings": {
+        "all_records": [
+          {
+            "record_id": "0x003A",
+            "size": "11",
+            "application_identifier": "OEM Strings",
+            "String 1": "002215B6AC80",
+            "String 2": "To Be Filled By O.E.M.",
+            "String 3": "To Be Filled By O.E.M.",
+            "String 4": "To Be Filled By O.E.M."
+          }
+        ],
+        "string_1": "002215B6AC80",
+        "string_2": "To Be Filled By O.E.M.",
+        "string_3": "To Be Filled By O.E.M.",
+        "string_4": "To Be Filled By O.E.M."
+      }
     },
     "etc": {
       "passwd": {
@@ -2217,7 +2518,7 @@
         }
       }
     },
-    "current_user": "ksquires",
+    "current_user": "root",
     "cloud_v2": null,
     "command": {
       "ps": "ps -ef"
@@ -2226,12 +2527,12 @@
       "by_device": {
         "/dev/mapper/centos-root": {
           "kb_size": "52403200",
-          "kb_used": "6282380",
-          "kb_available": "46120820",
-          "percent_used": "12%",
+          "kb_used": "6509244",
+          "kb_available": "45893956",
+          "percent_used": "13%",
           "total_inodes": "52428800",
-          "inodes_used": "238826",
-          "inodes_available": "52189974",
+          "inodes_used": "238882",
+          "inodes_available": "52189918",
           "inodes_percent_used": "1%",
           "fs_type": "xfs",
           "mount_options": [
@@ -2323,12 +2624,12 @@
         },
         "/dev/mapper/centos-home": {
           "kb_size": "10190100",
-          "kb_used": "622440",
-          "kb_available": "9551276",
+          "kb_used": "622872",
+          "kb_available": "9550844",
           "percent_used": "7%",
           "total_inodes": "655360",
-          "inodes_used": "13791",
-          "inodes_available": "641569",
+          "inodes_used": "13883",
+          "inodes_available": "641477",
           "inodes_percent_used": "3%",
           "fs_type": "ext4",
           "mount_options": [
@@ -2344,8 +2645,8 @@
         },
         "/dev/mapper/sw_vg-minecraft_lv": {
           "kb_size": "10190100",
-          "kb_used": "1396256",
-          "kb_available": "8777460",
+          "kb_used": "1396436",
+          "kb_available": "8777280",
           "percent_used": "14%",
           "total_inodes": "655360",
           "inodes_used": "1877",
@@ -2665,12 +2966,12 @@
       "by_mountpoint": {
         "/": {
           "kb_size": "52403200",
-          "kb_used": "6282380",
-          "kb_available": "46120820",
-          "percent_used": "12%",
+          "kb_used": "6509244",
+          "kb_available": "45893956",
+          "percent_used": "13%",
           "total_inodes": "52428800",
-          "inodes_used": "238826",
-          "inodes_available": "52189974",
+          "inodes_used": "238882",
+          "inodes_available": "52189918",
           "inodes_percent_used": "1%",
           "fs_type": "rootfs",
           "mount_options": [
@@ -2792,12 +3093,12 @@
         },
         "/home": {
           "kb_size": "10190100",
-          "kb_used": "622440",
-          "kb_available": "9551276",
+          "kb_used": "622872",
+          "kb_available": "9550844",
           "percent_used": "7%",
           "total_inodes": "655360",
-          "inodes_used": "13791",
-          "inodes_available": "641569",
+          "inodes_used": "13883",
+          "inodes_available": "641477",
           "inodes_percent_used": "3%",
           "fs_type": "ext4",
           "mount_options": [
@@ -2813,8 +3114,8 @@
         },
         "/minecraft": {
           "kb_size": "10190100",
-          "kb_used": "1396256",
-          "kb_available": "8777460",
+          "kb_used": "1396436",
+          "kb_available": "8777280",
           "percent_used": "14%",
           "total_inodes": "655360",
           "inodes_used": "1877",
@@ -3230,13 +3531,13 @@
         "/dev/mapper/centos-root,/": {
           "device": "/dev/mapper/centos-root",
           "kb_size": "52403200",
-          "kb_used": "6282380",
-          "kb_available": "46120820",
-          "percent_used": "12%",
+          "kb_used": "6509244",
+          "kb_available": "45893956",
+          "percent_used": "13%",
           "mount": "/",
           "total_inodes": "52428800",
-          "inodes_used": "238826",
-          "inodes_available": "52189974",
+          "inodes_used": "238882",
+          "inodes_available": "52189918",
           "inodes_percent_used": "1%",
           "fs_type": "xfs",
           "mount_options": [
@@ -3355,13 +3656,13 @@
         "/dev/mapper/centos-home,/home": {
           "device": "/dev/mapper/centos-home",
           "kb_size": "10190100",
-          "kb_used": "622440",
-          "kb_available": "9551276",
+          "kb_used": "622872",
+          "kb_available": "9550844",
           "percent_used": "7%",
           "mount": "/home",
           "total_inodes": "655360",
-          "inodes_used": "13791",
-          "inodes_available": "641569",
+          "inodes_used": "13883",
+          "inodes_available": "641477",
           "inodes_percent_used": "3%",
           "fs_type": "ext4",
           "mount_options": [
@@ -3375,8 +3676,8 @@
         "/dev/mapper/sw_vg-minecraft_lv,/minecraft": {
           "device": "/dev/mapper/sw_vg-minecraft_lv",
           "kb_size": "10190100",
-          "kb_used": "1396256",
-          "kb_available": "8777460",
+          "kb_used": "1396436",
+          "kb_available": "8777280",
           "percent_used": "14%",
           "mount": "/minecraft",
           "total_inodes": "655360",
@@ -3821,7 +4122,10 @@
     "init_package": "systemd",
     "keys": {
       "ssh": {
-
+        "host_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABAQCqQOCUy4Y8RLG/klhMqFlJtBQuFPR7HcQ0pgIQBfMunvafeth3IghHqdDf19/rgXM7evcULe7uQ2eLeKjsAbipu6TQbRnJi19KfIvZinccJlw8UGsArS0drx0kcjE8wth+YDsQtCkZuMbH3/dpljYiabWUOYDKV7JmfSv5gzLIDTZ3RTxEdLkssTiO2U7h1sY3CNoT+88kUCq5KkRezwEntKPrfFVXysN359KghTDKQ8NrjtqElxVp1B3An7WhdoQG0Lamme0J08JlFlEX+KqG2d2gfeINgAEdVqC/qqDYby6yryQ16GKZjS8/+Mpv97D25M/UApIY+QGyvZEhiMor",
+        "host_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAOFT9mcBnVnQFAmRrXiW9uVR/grVv5nrCfDncritvgoz5gdEvnsqRj85Id5JJ6k6o8JoeDfNUMdpiTzlQw1hMU=",
+        "host_ecdsa_type": "ecdsa-sha2-nistp256",
+        "host_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAILK9IDjyfgiN2S/6LduIYRK07+zT7cbrVfof0VDLhwmC"
       }
     },
     "block_device": {
@@ -3921,8 +4225,8 @@
           "user": "ksquires",
           "seat": null
         },
-        "7528": {
-          "session": "7528",
+        "7819": {
+          "session": "7819",
           "uid": "1000",
           "user": "ksquires",
           "seat": null
@@ -3943,7 +4247,7 @@
             "seat": null
           },
           {
-            "session": "7528",
+            "session": "7819",
             "uid": "1000",
             "user": "ksquires",
             "seat": null
@@ -3959,7 +4263,7 @@
         ]
       }
     },
-    "ohai_time": 1472862837.5017436,
+    "ohai_time": 1472908712.7434158,
     "packages": {
       "perl-Digest-SHA": {
         "epoch": "1",
